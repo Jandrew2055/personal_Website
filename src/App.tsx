@@ -1,7 +1,13 @@
-import './App.css';
+import { Projects } from './components/Projects';
+import { Hero } from './components/Hero';
 
 function App() {
-  return <>Testing</>;
+  return (
+    <>
+      <Hero />
+      <Projects />
+    </>
+  );
 }
 
 export default App;
