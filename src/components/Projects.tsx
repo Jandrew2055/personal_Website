@@ -1,5 +1,5 @@
-export const Projects = () => {
-
-    
+const Projects = () => {
   return <div>Testing</div>;
 };
+
+export default Projects;
