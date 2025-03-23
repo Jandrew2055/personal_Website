@@ -1,4 +1,4 @@
-const Hero = () => {
+const Hero: React.FC = () => {
   return <div id='hero-Section'>HERO SECTION</div>;
 };
 

@@ -1,4 +1,4 @@
-const Projects = () => {
+const Projects: React.FC = () => {
   return <div id='project-Section'>Projects</div>;
 };
 

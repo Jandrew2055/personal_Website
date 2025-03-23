@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 import Technologies from './components/Technologies';
 import About from './components/About';
 
-function App() {
+const App: React.FC = () => {
   return (
     <>
       <Navbar />
@@ -14,6 +14,6 @@ function App() {
       <Technologies />
     </>
   );
-}
+};
 
 export default App;

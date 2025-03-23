@@ -1,6 +1,6 @@
 import { Link } from 'react-scroll';
 
-const Navbar = () => {
+const Navbar: React.FC = () => {
   return (
     <nav className='bg-gray-800 text-white shadow-md fixed w-full z-10 top-0 left-0'>
       <ul>
