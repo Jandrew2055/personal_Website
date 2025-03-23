@@ -8,12 +8,12 @@ const Navbar = () => {
           <Link to='about-Section'>About Me</Link>
         </li>
         <li>
+          <Link to='technology-Section'>Technologies</Link>
+        </li>
+        <li>
           <Link to='project-Section' smooth={true} duration={500}>
             Projects
           </Link>
-        </li>
-        <li>
-          <Link to='technology-Section'>Technologies</Link>
         </li>
       </ul>
     </nav>
